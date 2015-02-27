@@ -5,12 +5,6 @@ ZDOT=~/Code/opensrc/zdot
 source "$ZDOT/alias.zsh"
 source "$ZDOT/funcs.zsh"
 
-
-# environment variables
-export ZSH=~/Code/opensrc/oh-my-zsh
-ensure-folder $ZSH
-
-
 # load zgen
 ensure-file ~/Code/opensrc/zgen/zgen.zsh
 source ~/Code/opensrc/zgen/zgen.zsh
@@ -31,7 +25,6 @@ if ! zgen saved; then
     zgen oh-my-zsh plugins/bower
     zgen oh-my-zsh plugins/brew
     zgen oh-my-zsh plugins/cabal
-    zgen oh-my-zsh plugins/chucknorris
     zgen oh-my-zsh plugins/colorize
     zgen oh-my-zsh plugins/django
     zgen oh-my-zsh plugins/gem
