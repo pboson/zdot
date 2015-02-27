@@ -1,8 +1,7 @@
 #!/usr/bin/env zsh
 
-source ~/Dropbox/config/zsh-brew/alias.zsh
-source ~/Dropbox/config/zsh-brew/funcs.zsh
-source ~/Dropbox/config/zsh-brew/envas.zsh
+source ./alias.zsh
+source ./funcs.zsh
 
 
 # environment variables
