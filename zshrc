@@ -1,7 +1,9 @@
 #!/usr/bin/env zsh
 
-source ./alias.zsh
-source ./funcs.zsh
+# load libraries
+ZDOT=~/Code/opensrc/zdot
+source "$ZDOT/alias.zsh"
+source "$ZDOT/funcs.zsh"
 
 
 # environment variables
