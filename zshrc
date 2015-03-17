@@ -55,6 +55,10 @@ else
     # A N D R O I D
     export ANDROID_HOME=/usr/local/opt/android-sdk
 
+    # N O D E V E R S I O N M A N A G E R
+    export NVM_DIR=~/.nvm
+    source $(brew --prefix nvm)/nvm.sh
+
     # load libraries
     source ~/Code/opensrc/zdot/alias.zsh
     source ~/Code/opensrc/zdot/funcs.zsh
