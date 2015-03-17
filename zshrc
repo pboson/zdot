@@ -45,17 +45,17 @@ if ! zgen saved; then
     # save all to init script
     zgen save
 else
-    . /Users/rbose85/Code/opensrc/zdot/my.zsh-theme
-
-    # globals
-    export ARCHFLAGS="-arch x86_64"
-    export LANG=en_GB.UTF-8
-    export ANDROID_HOME=/usr/local/opt/android-sdk
-
     # H O M E B R E W
     path=("${(@)path:#'/usr/local/bin'}")
     path=("${(@)path:#'/opt/X11/bin'}")
     path=(./node_modules/.bin /usr/local/bin /usr/local/sbin $path)
+
+    # globals
+    export ARCHFLAGS="-arch x86_64"
+    export LANG=en_GB.UTF-8
+
+    # A N D R O I D
+    export ANDROID_HOME=/usr/local/opt/android-sdk
 
     # load libraries
     source ~/Code/opensrc/zdot/alias.zsh
