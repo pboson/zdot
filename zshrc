@@ -38,9 +38,7 @@ if ! zgen saved; then
     # zgen load gulpjs/gulp completion/zsh
 
     # theme
-    # zgen load rbose85/zdot my
-    # zgen oh-my-zsh themes/ys
-    # zgen oh-my-zsh themes/bureau
+    zgen load rbose85/zdot my
 
     # save all to init script
     zgen save
