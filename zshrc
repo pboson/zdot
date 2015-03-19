@@ -19,12 +19,13 @@ if ! zgen saved; then
     # zgen oh-my-zsh plugins/adb
     # zgen oh-my-zsh plugins/autojump
     # zgen oh-my-zsh plugins/bower
-    zgen oh-my-zsh plugins/brew
+    # zgen oh-my-zsh plugins/brew
     zgen oh-my-zsh plugins/colored-man
     # zgen oh-my-zsh plugins/grunt
     # zgen oh-my-zsh plugins/heroku
     # zgen oh-my-zsh plugins/node
     # zgen oh-my-zsh plugins/npm
+    zgen oh-my-zsh plugins/nvm
     # zgen oh-my-zsh plugins/pip
     # zgen oh-my-zsh plugins/postgres
     # zgen oh-my-zsh plugins/python
