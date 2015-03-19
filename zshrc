@@ -36,7 +36,7 @@ if ! zgen saved; then
 
     # completions
     # zgen load zsh-users/zsh-completions src
-    # zgen load gulpjs/gulp completion/zsh
+    zgen load gulpjs/gulp completion/zsh
 
     # theme
     zgen load rbose85/zdot my
