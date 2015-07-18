@@ -63,4 +63,5 @@ else
     # load libraries
     source ~/Code/opensrc/zdot/alias.zsh
     source ~/Code/opensrc/zdot/funcs.zsh
+    source ~/Code/opensrc/zdot/devel.zsh
 fi
