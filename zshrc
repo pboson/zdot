@@ -47,7 +47,7 @@ else
     # H O M E B R E W
     path=("${(@)path:#'/usr/local/bin'}")
     path=("${(@)path:#'/opt/X11/bin'}")
-    path=(./node_modules/.bin /usr/local/bin /usr/local/sbin $path)
+    path=(/usr/local/bin /usr/local/sbin $path)
 
     # globals
     export ARCHFLAGS="-arch x86_64"
@@ -59,6 +59,7 @@ else
     # N O D E V E R S I O N M A N A G E R
     export NVM_DIR=~/.nvm
     ulimit -n 2560 # https://github.com/gruntjs/grunt-contrib-copy/issues/21
+    path=(./node_modules/.bin $path)
 
     # load libraries
     source ~/Code/opensrc/zdot/alias.zsh
