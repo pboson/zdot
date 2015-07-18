@@ -58,7 +58,6 @@ else
 
     # N O D E V E R S I O N M A N A G E R
     export NVM_DIR=~/.nvm
-    # source $(brew --prefix nvm)/nvm.sh
 
     # load libraries
     source ~/Code/opensrc/zdot/alias.zsh
