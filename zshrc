@@ -27,7 +27,7 @@ if ! zgen saved; then
     # zgen oh-my-zsh plugins/heroku
     # zgen oh-my-zsh plugins/node
     # zgen oh-my-zsh plugins/npm
-    zgen oh-my-zsh plugins/nvm
+    # zgen oh-my-zsh plugins/nvm
     # zgen oh-my-zsh plugins/pip
     # zgen oh-my-zsh plugins/postgres
     # zgen oh-my-zsh plugins/python
@@ -38,10 +38,10 @@ if ! zgen saved; then
 
     # completions
     # zgen load zsh-users/zsh-completions src
-    zgen load gulpjs/gulp completion/zsh
+    # zgen load gulpjs/gulp completion/zsh
 
     # theme
-    zgen load rbose85/zdot my
+    zgen load Pascal/zdot my
 
     # save all to init script
     zgen save
