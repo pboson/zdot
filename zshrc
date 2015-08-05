@@ -5,6 +5,8 @@
 #   $ zgen update && zgen reset
 #   $ zsh-time
 #   zsh -i -c exit  0.17s user 0.13s system 112% cpu 0.269 total
+#   zsh -i -c exit  0.22s user 0.08s system 94% cpu 0.315 total
+
 
 # load zgen
 source ~/Code/opensrc/zgen/zgen.zsh
